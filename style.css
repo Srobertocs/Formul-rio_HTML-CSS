@@ -38,3 +38,17 @@ button {
   height: 20px;
   margin: 0px;
 }
+
+select {
+  font-size: 1.2rem;
+  padding: 10px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+}
+
+textarea {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  padding: 10px;
+  margin-bottom: 30px;
+}
