@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Formulario</title>
+</head>
+
+<body>
+  <!-- Atríbuto Action indica o arquivo url que será chamado quando o formulário for enviado
+  Atríbudo method (Get[Busca de informações] e Post[envio de informações]) -->
+  <form action="" method="">
+    <label for="usuario">Usuário</label>
+    <input type="text" id="usuario" name="usuario">
+    <!--Atríbuto type define o tipo do input e o atríbuto nome define um nome único para o input e é utilizado para 
+    puxar o valor do campo. O for do label se relaciona ao id do input-->
+    <label for="senha">Senha</label>
+    <input type="password" id="senha" name="senha" required>
+    <!--O atributo required obriga o preenchimento do campo para que o formulário seja enviado -->
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="nome@email.com">
+    <!--O atributo placeholder fornece uma dia de preenchimento do campo-->
+    <label for="data">Data</label>
+    <input type="date" id="data" name="data">
+
+    <div class="checkbox">
+      <input type="checkbox" name="termos" id="termos" value="ciente">
+      <label for="termos">Aceito os termos e condições</label>
+    </div>
+
+    <p>Entregas:</p>
+    <div class="radio">
+      <input type="radio" id="retirada" name="retirada">
+      <label for="retirada"> Retirar no local</label>
+    </div>
+
+    <div class="radio">
+      <input type="radio" id="entrega" name="retirada">
+      <label for="entrega"> Entregar</label>
+    </div>
+
+    <button>enviar</button>
+
+
+    <!-- O Button dentro do form envia/ativa a action do form-->
+  </form>
+
+</body>
+
+</html>
